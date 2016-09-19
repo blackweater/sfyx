@@ -1,0 +1,1463 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>宜佳商城</title>
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+
+<script src="assets/jquery-1.12.0.js"></script>	
+<script src="assets/bootstrap.js"></script>
+<script src="assets/day19-move.js" ></script>
+<script src="js/my.js"></script>
+</head>
+<body>	
+<div class="container-fluid">
+	
+<!--头部 -->
+ <div class="row-fluid" style="clear: both;">
+
+<div id="intop">
+<div id="indl">
+<div id="indll">
+<ul>
+<li><a href="#" target="_blank">电视直播</a></li>
+<li><a href="#" target="_blank">电子型录</a></li>
+<li style="background: none"><a href="#" target="_blank">购物专家</a></li>
+</ul>
+</div>
+<div id="indlr">
+<dl>
+<dt>
+您好，欢迎来到宜佳商城！</dt>
+<dd>
+<a href="#">[注册]</a>
+<a href="#"">[登录]</a>
+</dd>
+</dl>
+<ul>
+<li><a href="#">我的订单</a></li>
+<li><a href="#">商城积分</a></li>
+<li><a href="#">帮助中心</a></li>
+<li><a href="#" onclick="fn()">收藏宜佳</a></li>
+</ul>
+</div>
+</div>
+
+<div id="logo" style="clear: both">
+<div id="log">
+<a href="#">
+<img src="img/new_logo.gif"/></a>
+</div>
+<div id="mer">
+<a href="#" target="_blank">
+<img src="img/easygo_merchant.jpg" /></a></div>
+
+<div id="ser">
+<dl>
+<dt>
+<input name="ctl00$header1$txt_keywords" type="text" id="ctl00_header1_txt_keywords" class="tx" value="搜索关键词" onfocus="this.value=&#39;&#39;" onkeydown="if (event.keyCode == 13) { window.location.href=&#39;../search/s.aspx?keywords=&#39;+this.value;return false;}" />
+</dt>
+<dd>
+<a href="#" onclick="doSearch();" id="searchclick">
+    <img src="img/ss.gif" /></a>
+</dd>
+</dl>
+<p>
+热门搜索： <span class="ft1"><a href="#" target="_blank"
+style="">腕表</a> </span><a href="#" target="_blank">
+    &nbsp;床品</a> <a href="#" target="_blank">
+        &nbsp;面包机</a> <a href="#" target="_blank">
+            &nbsp;炒锅</a> <a href="#" target="_blank">
+                &nbsp;套组</a>
+</p>
+</div>
+
+<div id="weixin">
+<img src="img/lnWX.png" alt="#" id="updatewx"></div>
+<div id="gwc">
+<dl>
+<dt id="headercartproductcount">
+0</dt>
+<dd>
+<a href="">去购物车结算</a></dd>
+</dl>
+</div>
+</div>
+
+<div id="menu">
+<dl style="position: relative; z-index: 9999;">
+<div id="menudiv" style="z-index: 9999;">
+<p style="cursor: pointer;">
+全部商品分类</p>
+</div>
+</div>
+</div>
+<!--侧边栏-->
+<div class="span2">
+<div id="cent" class="ie6filter" style="display: block">
+
+<!--首页主体加在cent中-->
+
+<div class="span10 clearfix">
+<div id="cenm">
+ <div class="box">
+<ul id="faq">
+
+<li>
+<dl>
+  <dt>▪&nbsp;家居百货</dt>
+  <dd style='display:block;'
+class="">
+  <div class="allsort">
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#">
+        <div>-奢侈品&nbsp;</div>礼赠佳品
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:block;">
+      
+            <em><a href="#" >
+            	奢侈品
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-实木家具&nbsp;-其它&nbsp;-卫浴晾晒&nbsp;-综合&nbsp;</div>家居用品
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:block;">     
+            <em><a href="#" >
+                实木家具
+            </a></em>
+        
+            <em><a href="#" >
+                其它
+            </a></em>
+        
+            <em><a href="#" >
+                卫浴晾晒
+            </a></em>
+        
+            <em><a href="#" >
+                综合
+            </a></em>
+        
+            <em><a href="#" >
+                摆件类
+            </a></em>
+        
+            <em><a href="#" >
+                衣架挂钩
+            </a></em>
+        
+            <em><a href="#" >
+                家居清洁
+            </a></em>
+        
+            <em><a href="#" >
+                整理收纳
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-全身按摩器材&nbsp;-休闲服装&nbsp;-室内有氧运动&nbsp;-局部按摩放松类&nbsp;</div>休闲运动
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:block;">
+      
+            <em><a href="#" >
+                全身按摩器材
+            </a></em>
+        
+            <em><a href="#" >
+                休闲服装
+            </a></em>
+        
+            <em><a href="#" >
+                室内有氧运动
+            </a></em>
+        
+            <em><a href="#" >
+                局部按摩放松类
+            </a></em>
+        
+            <em><a href="#" >
+                娱乐休闲
+            </a></em>
+        
+            <em><a href="#" >
+                休闲鞋
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-银制品&nbsp;-纪念品&nbsp;-钱币邮票&nbsp;</div>收藏品
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:block;">
+      
+            <em><a href="#" >
+                银制品
+            </a></em>
+        
+            <em><a href="#" >
+                纪念品
+            </a></em>
+        
+            <em><a href="#" >
+                钱币邮票
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-天然填充被&nbsp;-有被芯件套&nbsp;-冬季卧室用品&nbsp;-床褥床垫&nbsp;</div>卧室床品
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:block;">
+      
+            <em><a href="#" >
+                天然填充被
+            </a></em>
+        
+            <em><a href="#" >
+                有被芯件套
+            </a></em>
+        
+            <em><a href="#" >
+                冬季卧室用品
+            </a></em>
+        
+            <em><a href="#" >
+                床褥床垫
+            </a></em>
+        
+            <em><a href="#" >
+                枕芯靠垫
+            </a></em>
+        
+            <em><a href="#" >
+                无被芯类件套
+            </a></em>
+        
+            <em><a href="#" >
+                夏季卧室用品
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-保健用品&nbsp;-其它&nbsp;-休闲小食&nbsp;-成人营养食品&nbsp;</div>生活保健
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:block;">
+      
+            <em><a href="#" >
+                保健用品
+            </a></em>
+        
+            <em><a href="#" >
+                其它
+            </a></em>
+        
+            <em><a href="#" >
+                休闲小食
+            </a></em>
+        
+            <em><a href="#" >
+                成人营养食品
+            </a></em>
+        
+            <em><a href="#" >
+                烟酒
+            </a></em>
+        
+            <em><a href="#" >
+                老年营养食品
+            </a></em>
+        
+            <em><a href="#" >
+                茶
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-茶具/煮壶杯具&nbsp;-餐具&nbsp;-烹饪用具&nbsp;</div>厨房精品
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:block;">
+      
+            <em><a href="#" >
+                茶具/煮壶杯具
+            </a></em>
+        
+            <em><a href="#" >
+                餐具
+            </a></em>
+        
+            <em><a href="#" >
+                烹饪用具
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+</div>
+</dd>
+
+</dl>
+  </li>
+
+<li>
+<dl>
+  <dt>▪&nbsp;3C数码</dt>
+  <dd 
+class="">
+  <div class="allsort">
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-进口品牌手机&nbsp;-国产品牌手机&nbsp;-其它&nbsp;</div>移动通讯
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                进口品牌手机
+            </a></em>
+        
+            <em><a href="#" >
+                国产品牌手机
+            </a></em>
+        
+            <em><a href="#" >
+                其它
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-多功能一体机&nbsp;</div>电脑周边
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                多功能一体机
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-进口品牌数码相机&nbsp;</div>时尚视听
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                进口品牌数码相机
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+</div>
+</dd>
+
+</dl>
+  </li>
+
+<li>
+<dl>
+  <dt>▪&nbsp;精品家电</dt>
+  <dd 
+class="">
+  <div class="allsort">
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-食品料理类&nbsp;-电烤类&nbsp;-饮料加工类&nbsp;-炉灶类&nbsp;</div>厨房电器
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                食品料理类
+            </a></em>
+        
+            <em><a href="#" >
+                电烤类
+            </a></em>
+        
+            <em><a href="#" >
+                饮料加工类
+            </a></em>
+        
+            <em><a href="#" >
+                炉灶类
+            </a></em>
+        
+            <em><a href="#" >
+                净水器
+            </a></em>
+        
+            <em><a href="#" >
+                煲煮类
+            </a></em>
+        
+            <em><a href="#" >
+                其它
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-家庭清洁&nbsp;-季节性电器&nbsp;-衣物整理&nbsp;-其它&nbsp;</div>生活电器
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                家庭清洁
+            </a></em>
+        
+            <em><a href="#" >
+                季节性电器
+            </a></em>
+        
+            <em><a href="#" >
+                衣物整理
+            </a></em>
+        
+            <em><a href="#" >
+                其它
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-厨房大电&nbsp;-洗衣机&nbsp;-空调&nbsp;-热水器&nbsp;</div>大家电
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                厨房大电
+            </a></em>
+        
+            <em><a href="#" >
+                洗衣机
+            </a></em>
+        
+            <em><a href="#" >
+                空调
+            </a></em>
+        
+            <em><a href="#" >
+                热水器
+            </a></em>
+        
+            <em><a href="#" >
+                视讯影音
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-电动美容工具&nbsp;</div>个人护理
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                电动美容工具
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+</div>
+</dd>
+
+</dl>
+  </li>
+
+<li>
+<dl>
+  <dt>▪&nbsp;时尚生活</dt>
+  <dd 
+class="">
+  <div class="allsort">
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-人造宝石&nbsp;-其他&nbsp;-其它&nbsp;-玉石&nbsp;</div>珠宝首饰
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                人造宝石
+            </a></em>
+        
+            <em><a href="#" >
+                其他
+            </a></em>
+        
+            <em><a href="#" >
+                其它
+            </a></em>
+        
+            <em><a href="#" >
+                玉石
+            </a></em>
+        
+            <em><a href="#" >
+                珍珠
+            </a></em>
+        
+            <em><a href="#" >
+                和田玉
+            </a></em>
+        
+            <em><a href="#" >
+                珊瑚
+            </a></em>
+        
+            <em><a href="#" >
+                水晶
+            </a></em>
+        
+            <em><a href="#" >
+                其他
+            </a></em>
+        
+            <em><a href="#" >
+                羊脂玉
+            </a></em>
+        
+            <em><a href="#" >
+                珍珠
+            </a></em>
+        
+            <em><a href="#" >
+                玛瑙珊瑚琥珀
+            </a></em>
+        
+            <em><a href="#" >
+                银饰品
+            </a></em>
+        
+            <em><a href="#" >
+                玛瑙玉髓
+            </a></em>
+        
+            <em><a href="#" >
+                戒指
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-综合&nbsp;-汽车座垫&nbsp;-洗车周边用品&nbsp;-导航仪&nbsp;</div>汽车周边
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                综合
+            </a></em>
+        
+            <em><a href="#" >
+                汽车座垫
+            </a></em>
+        
+            <em><a href="#" >
+                洗车周边用品
+            </a></em>
+        
+            <em><a href="#" >
+                导航仪
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-配饰&nbsp;-其它&nbsp;-办公时尚箱包&nbsp;-其它&nbsp;</div>服装鞋帽
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                配饰
+            </a></em>
+        
+            <em><a href="#" >
+                其它
+            </a></em>
+        
+            <em><a href="#" >
+                办公时尚箱包
+            </a></em>
+        
+            <em><a href="#" >
+                其它
+            </a></em>
+        
+            <em><a href="#" >
+                内衣家居服
+            </a></em>
+        
+            <em><a href="#" >
+                旅行箱包
+            </a></em>
+        
+            <em><a href="#" >
+                裤
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-生发育发&nbsp;-美白&nbsp;-面部护理&nbsp;-沐浴护发&nbsp;</div>美容美发
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                生发育发
+            </a></em>
+        
+            <em><a href="#" >
+                美白
+            </a></em>
+        
+            <em><a href="#" >
+                面部护理
+            </a></em>
+        
+            <em><a href="#" >
+                沐浴护发
+            </a></em>
+        
+            <em><a href="#" >
+                彩妆
+            </a></em>
+        
+            <em><a href="#" >
+                身体护理
+            </a></em>
+        
+            <em><a href="#" >
+                抗皱
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-进口表&nbsp;-其它&nbsp;-男士手表&nbsp;-时尚运动表&nbsp;</div>手表
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                进口表
+            </a></em>
+        
+            <em><a href="#" >
+                其它
+            </a></em>
+        
+            <em><a href="#" >
+                男士手表
+            </a></em>
+        
+            <em><a href="#" >
+                时尚运动表
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+</div>
+</dd>
+
+</dl>
+  </li>
+
+<li>
+<dl>
+  <dt>▪&nbsp;宜佳旅游</dt>
+  <dd class="notenoughchild">
+  <div class="allsort">
+
+<div class="item fore">
+<span>
+    <h3>
+    <a href="#" >
+        <div>-综合&nbsp;-其它&nbsp;-综合&nbsp;</div>宜佳旅游
+    </a>
+    </h3>
+</span>
+<div class="i-mc">
+    <div class="subitem">
+    <dl class="fore">
+     <dt style="display:none"></dt>
+      <dd style="display:none;">
+      
+            <em><a href="#" >
+                综合
+            </a></em>
+        
+            <em><a href="#" >
+                其它
+            </a></em>
+        
+            <em><a href="#" >
+                综合
+            </a></em>
+        
+      <em><a href="#" >更多&gt;&gt;</a></em>	
+      </dd>
+      </dl>
+    </div>
+</div>
+</div>
+
+</div>
+</dd>
+
+</dl>
+  </li>
+        
+ </ul>
+<div id="cdtxt">点击上面文字查看商品分类</div>
+</div>
+</div> 
+
+
+      
+   <div class="left-box">
+    <div class="wrapper">
+	
+<ul id="focus">			
+<li><div><a href="#" target="_blank"><img src="img/160402_00_00.jpg"/></a></div></li>
+<li><div><a href="#" target="_blank"><img src="img/IMG_20160901072149330.jpg" /></a></div></li>
+<li><div><a href="#" target="_blank"><img src="img/IMG_20160901072226585.jpg"/></a></div></li>
+</ul>
+	
+	<ul id="list2" >
+				<li style="background: red;">1</li>
+				<li>2</li>
+				<li>3</li>
+	</ul>
+</div>
+
+<!--第二个轮播图-->
+
+<div style="float:left;width:706px; height:122px;
+	border:1px solid#e4e4e4;margin-left: 18px;position: relative;">
+    <div class="blk_29">
+        <div class="LeftBotton" id="LeftArr"></div>
+          <div class="RightBotton" id="RightArr"></div>
+        <div class="Cont" id="ISL_Cont_1">
+        
+            
+<div class="picbox"><a target="_blank"/><img src="css/img/150766_07_00.jpg"/></a></div>
+
+<div class="picbox"><a  target="_blank"><img  src="css/img/241508_00_00.jpg"/></a></div>
+
+<div class="picbox"><a  target="_blank"><img  src="css/img/241536_00_00.JPG"/></a></div>
+
+<div class="picbox"><a  target="_blank"><img  src="css/img/241540_00_00.jpg"/></a></div>
+       
+        </div>     
+    </div>
+</div>
+
+
+
+
+<!--左边盒子-->
+</div>
+
+<div class="right-box clearfix">
+<div id="spzb">
+    <div id="spzbt">
+        <dl><dt>视频直播商品</dt><dd><a href="#" target="_blank">更多&gt;&gt;</a></dd></dl>
+    </div>
+    <div id="spzbc">
+        <a href="#" target="_blank">
+            <p><img src="css/img/340950_00_00.jpg"></p>
+            <dl>
+                <dt>馨之屋喜精灵加赠组</dt>
+                <dt>￥299<span class="ft3">（积分2.99）</span></dt>
+                <dd>时间：17:00-17:30 </dd>
+            </dl>
+        </a>
+    </div>
+</div>
+        <div id="gg">
+            <a href="javascript:void(0);">
+                <img src="css/img/gg.jpg" /></a></div>
+                               
+
+
+<!--商城公告-->
+<div id="scgg" class="clearfix">
+    <div id="scggt"><dl><dt>商城公告</dt><dd><a href="/Affiche/Affiche_list.aspx?type=1">更多&gt;&gt;</a></dd></dl></div>
+    <div id="scggc">   
+            <dl>
+                <dt>▪<span>[公告]</span></dt>
+                <dd>
+                    <a href="/Affiche/Affiche_detail.aspx?id=1043" title="微信摇电视通知!" target="_blank">
+                        微信摇电视通知!
+                    </a>
+                </dd>
+            </dl>
+        
+            <dl>
+                <dt>▪<span>[公告]</span></dt>
+                <dd>
+                    <a href="/Affiche/Affiche_detail.aspx?id=1023" title="周年庆公告" target="_blank">
+                        周年庆公告
+                    </a>
+                </dd>
+            </dl>
+        
+    </div>
+</div>
+
+<div id="xpsf">
+<div id="xpsft"><dl><dt>限时秒杀</dt><dd><a href="/ploy/SecKillPloySale.aspx">更多>></a></dd></dl></div>
+<div id="xpsfc" >
+    <dl>
+        <dt id="xpsfdec" style="display:none"></dt>
+        <dd>
+            <div class="blk_18"> 
+                <a class="LeftBotton1" onmousedown="ISL_GoUp_1()" onmouseup="ISL_StopUp_1()" onmouseout="ISL_StopUp_1()" href="javascript:void(0);" target="_self"></a>
+                <div class="pcont" id="ISL_Cont_2">
+                    <div class="ScrCont">
+                        <div id="List1_1">
+                        <!-- piclist begin -->                 
+<!-- 限时秒杀 begin-->
+ <p class="pl">
+                                      <span class="countdown">剩余
+         <strong class="rmdays rmtime">1</strong><b>天</b>
+        <strong class="rmhours rmtime">6</strong><b>小时</b>
+        <strong class="rmminutes rmtime">55</strong><b>分</b>
+        <strong class="rmseconds rmtime">34</strong><b>秒</b>
+       </span> 
+   <span><a href="#" target="_blank">
+   <img src="css/img/241673_00_00.jpg" /></a></span>
+     <span class="productdesc">
+            <a href="#">
+            张裕干红葡萄酒超值组 </a></span>
+          <span class="qgprice">抢购价：<b>￥298</b></span> 
+               </p>
+             
+              <!--   限时秒杀 end-->
+            
+    <!-- piclist end -->
+    </div>
+    <div id="List2_1"></div>
+        </div>
+    </div>
+    <a class="RightBotton1" onmousedown="ISL_GoDown_1()" onmouseup="ISL_StopDown_1()" onmouseout="ISL_StopDown_1()" href="javascript:void(0);" target="_self"></a> 
+</div>
+        <div class="c"></div>
+    </dd>
+</dl>
+</div>
+</div>
+
+<div id="ddcx">
+    <div id="ddcxt"><dl><dt>订单查询</dt><dd></dd></dl></div>
+        <div id="ddcxc">
+        <p>请在输入框中输入您的订单号</p>
+        <dl>
+            <dt><input name="" type="text" class="tx1" id="iptOrderID"></dt>
+            <dd><a href="###" onclick="GotoOrderPage();"><img src="css/img/in_cx.jpg" /></a></dd>
+        </dl>
+    </div>
+</div>
+
+<div id="wbtj">
+    <div id="wbtjt"><dl><dt>主持人微博推荐商品</dt><dd><a href="/showhost/">更多&gt;&gt;</a></dd></dl></div>
+    <div id="wbtjc">
+        <p>
+            <a href="/prod/p.aspx?skn=110240" target="_blank">
+                <img src="css/img/110240_02_00.jpg" />
+            </a>
+        </p>
+        <dl>
+            <dt><a href="/prod/p.aspx?skn=110240" target="_blank">*（商城专供）飞利浦液晶电视  功能(MM)（仅支持支付宝）</a></dt>
+            <dd>抢购价: <span>￥1079</span></dd>
+        </dl>
+    </div>
+</div>
+
+
+<!--右边的盒子-->
+</div>
+
+<!--中间部分-->
+        <div id="pageh">
+            <ul class="subMenu">
+                <li class="thisStyle" od="1"><a href="javascript:void(0)">直播商品</a></li>
+                <li class="" od="2"><a href="javascript:void(0)">热卖商品</a></li>
+                <li class="" od="3"><a href="javascript:void(0)">特惠商品</a></li>
+                <li class="" od="4"><a href="javascript:void(0)">商城专区</a></li>
+            </ul>
+            <div class="subContent topSubContent">
+                <ul style="display: block;" od="1">
+                    <li>
+                        
+        <dl >
+            <p><a href="#" target="_blank"><img src="css/img/340916_00_00.jpg" onerror="this.src='/images/none.jpg'" height="175px" width="175px"/></a></p>
+            <dt><a href="#" target="_blank">专场 韩束秘蜜水凝乳璀璨滋养套组</a></dt>
+            <dd>宜佳价：<b>￥299</b></dd>
+        </dl>
+    
+        <dl >
+            <p><a href="#" target="_blank"><img src="css/img/340916_00_00.jpg" onerror="this.src='/images/none.jpg'" height="175px" width="175px"/></a></p>
+            <dt><a href="#" target="_blank">冷链 岛礼即食海参超值加量组</a></dt>
+            <dd>宜佳价：<b>￥999</b></dd>
+        </dl>
+    
+        <dl >
+            <p><a href="#" target="_blank"><img src="css/img/340916_00_00.jpg" onerror="this.src='/images/none.jpg'" height="175px" width="175px"/></a></p>
+            <dt><a href="#" target="_blank">捷赛自动烹饪锅超值组</a></dt>
+            <dd>宜佳价：<b>￥398</b></dd>
+        </dl>
+    
+        <dl >
+            <p><a href="#" target="_blank"><img src="css/img/340916_00_00.jpg" onerror="this.src='/images/none.jpg'" height="175px" width="175px"/></a></p>
+            <dt><a href="#" target="_blank">秘制海之山沙丁鱼健康超值组</a></dt>
+            <dd>宜佳价：<b>￥299</b></dd>
+        </dl>
+    
+        <dl  style='background:none;'>
+            <p><a href="#" target="_blank"><img src="css/img/340916_00_00.jpg" onerror="this.src='/images/none.jpg'" height="175px" width="175px"/></a></p>
+            <dt><a href="#" target="_blank">POLOALAN六针飞轮多功能真钻机械腕表</a></dt>
+            <dd>宜佳价：<b>￥1580</b></dd>
+        </dl>
+    
+                    </li>
+                </ul>
+                <ul style="display: none;" od="2">
+                    <li>
+                        <dl >
+    
+    <p><a href="#" target="_blank" title="*（商城专供）阿拉丁  牛肉葱花（仅支持支付宝）"><img src="css/img/241469_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="*（商城专供）阿拉丁  牛肉葱花（仅支持支付宝）">*（商城专供）阿拉丁  牛肉葱花（仅支持支付宝）</a></dt>
+    <dd>宜佳价：<b>￥19</b></dd>
+</dl>
+<dl >
+    
+    <p><a href="#" target="_blank" title="申花牌洗脱两用迷你洗衣机（新）"><img src="css/img/241469_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="申花牌洗脱两用迷你洗衣机（新）">申花牌洗脱两用迷你洗衣机（新）</a></dt>
+    <dd>宜佳价：<b>￥268</b></dd>
+</dl>
+<dl >
+    
+    <p><a href="#" target="_blank" title="*（商城专供）东芝电饭煲RC-N10MC 3升 仅支持支付宝付款"><img src="css/img/241469_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="*（商城专供）东芝电饭煲RC-N10MC 3升 仅支持支付宝付款">*（商城专供）东芝电饭煲RC-N10MC 3升 仅支持支付宝付款</a></dt>
+    <dd>宜佳价：<b>￥1555</b></dd>
+</dl>
+<dl >
+    
+    <p><a href="#" target="_blank" title="乐扣乐扣格拉斯12件劲爆组"><img src="css/img/241469_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="乐扣乐扣格拉斯12件劲爆组">乐扣乐扣格拉斯12件劲爆组</a></dt>
+    <dd>宜佳价：<b>￥268</b></dd>
+</dl>
+<dl style='background:none;'>
+    
+    <p><a href="#" target="_blank" title="*（商城专供）飞利浦液晶电视（仅支持支付宝）"><img src="css/img/241469_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="*（商城专供）飞利浦液晶电视（仅支持支付宝）">*（商城专供）飞利浦液晶电视（仅支持支付宝）</a></dt>
+    <dd>宜佳价：<b>￥1079</b></dd>
+</dl>
+                    </li>
+                </ul>
+                <ul style="display: none;" od="3">
+                    <li>
+                        <dl >
+    
+    <p><a href="#" target="_blank" title="思家旺电动扫拖一体机1+1组"><img src="css/img/211144_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="思家旺电动扫拖一体机1+1组">思家旺电动扫拖一体机1+1组</a></dt>
+    <dd>宜佳价：<b>￥299</b></dd>
+</dl>
+<dl >
+    
+    <p><a href="#" target="_blank" title="（提货券） 浩泽直饮净水机"><img src="css/img/211144_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="（提货券） 浩泽直饮净水机">（提货券） 浩泽直饮净水机</a></dt>
+    <dd>宜佳价：<b>￥1699</b></dd>
+</dl>
+<dl >
+    
+    <p><a href="#" target="_blank" title="厨之王健康生活厨具特供组"><img src="css/img/211144_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="厨之王健康生活厨具特供组">厨之王健康生活厨具特供组</a></dt>
+    <dd>宜佳价：<b>￥299</b></dd>
+</dl>
+<dl >
+    
+    <p><a href="#" target="_blank" title="乐扣乐扣格拉斯12件劲爆组"><img src="css/img/211144_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="乐扣乐扣格拉斯12件劲爆组">乐扣乐扣格拉斯12件劲爆组</a></dt>
+    <dd>宜佳价：<b>￥268</b></dd>
+</dl>
+<dl style='background:none;'>
+    
+    <p><a href="#" target="_blank" title="（走进原厂地）茅台醇大福大贵原浆酒"><img src="css/img/211144_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="（走进原厂地）茅台醇大福大贵原浆酒">（走进原厂地）茅台醇大福大贵原浆酒</a></dt>
+    <dd>宜佳价：<b>￥777</b></dd>
+</dl>
+
+                    </li>
+                </ul>
+                <ul style="display: none;" od="4">
+                    <li>
+                        <dl >
+    
+    <p><a href="#" target="_blank" title="*（商城专供）冈本避孕套（超润滑）（仅支持支付宝使用）"><img src="css/img/241169_00_00.jpg"/></a></p>
+    <dt><a href="#" target="_blank" title="*（商城专供）冈本避孕套（超润滑）（仅支持支付宝使用）">*（商城专供）冈本避孕套（超润滑）（仅支持支付宝使用）</a></dt>
+    <dd>宜佳价：<b>￥33</b></dd>
+</dl>
+<dl >
+    
+    <p><a href="#" target="_blank" title="*（商城专供）冈本避孕套(Enjoy享玩7片)（仅支持支付宝使用）"><img src="css/img/241169_00_00.jpg" /></a></p>   
+    <dt><a href="#" target="_blank" title="*（商城专供）冈本避孕套(Enjoy享玩7片)（仅支持支付宝使用）">*（商城专供）冈本避孕套(Enjoy享玩7片)（仅支持支付宝使用）</a></dt>
+    <dd>宜佳价：<b>￥25</b></dd>
+</dl>
+<dl >
+    
+    <p><a href="#" target="_blank" title="*（商城专供）冈本避孕套（激簿10片）（仅支持支付宝使用）"><img src="css/img/241169_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="*（商城专供）冈本避孕套（激簿10片）（仅支持支付宝使用）">*（商城专供）冈本避孕套（激簿10片）（仅支持支付宝使用）</a></dt>
+    <dd>宜佳价：<b>￥43</b></dd>
+</dl>
+<dl>   
+    <p><a href="#" target="_blank" title="*（商城专供）冈本避孕套(003透明酸质10片)（仅支持支付宝使用）"><img src="css/img/241169_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="*（商城专供）冈本避孕套(003透明酸质10片)（仅支持支付宝使用）">*（商城专供）冈本避孕套(003透明酸质10片)（仅支持支付宝使用）</a></dt>
+    <dd>宜佳价：<b>￥121</b></dd>
+</dl>
+
+<dl style='background:none;'>
+    
+    <p><a href="#" target="_blank" title="*（商城专供）冈本避孕套（白金超薄10片）（仅支持支付宝使用）"><img src="css/img/241169_00_00.jpg" /></a></p>
+    <dt><a href="#" target="_blank" title="*（商城专供）冈本避孕套（白金超薄10片）（仅支持支付宝使用）">*（商城专供）冈本避孕套（白金超薄10片）（仅支持支付宝使用）</a></dt>
+    <dd>宜佳价：<b>￥93</b></dd>
+</dl>
+
+                    </li>
+                </ul>
+            </div>
+<script>
+    $(".subMenu li").hover(function () {
+        $(".subMenu li").removeClass("thisStyle");
+        $(this).addClass("thisStyle");
+
+        var thisod = $(this).attr("od");
+
+        $(".topSubContent ul").hide();
+        $(".topSubContent ul[od='" + thisod + "']").show();
+    });
+</script>
+	</div>
+
+<!--主界面 1F精品家电-->
+
+<!--span10-->
+</div>
+    
+
+
+<div id="footHeader">
+    <div id="kslj">
+        <dl>
+            <dt>购物指南</dt><dd>
+                <a href="#" target="_blank">购物流程</a><br>
+                <a href="#" target="_blank">常见问题</a><br>
+                <a href="#" target="_blank">订单状态</a><br>
+                <a href="#" target="_blank">会员介绍</a></dd></dl>
+        <dl>
+            <dt>配送方式</dt><dd><a href="#" target="_blank">配送方式</a><br>
+                <a href="#" target="_blank">配送范围</a><br>
+                <a href="#" target="_blank">配送费用</a><br>
+                <a href="#" target="_blank">配送时间</a></dd></dl>
+        <dl>
+            <dt>支付方式</dt><dd><a href=href="#" target="_blank">货到付款</a><br>
+                <a href="#" target="_blank">刷卡服务</a><br>
+                <a href="#" target="_blank">分期付款</a><br>
+                <a href="#" target="_blank">支付宝支付</a></dd></dl>
+        <dl>
+            <dt>售后服务</dt><dd><a href="#" target="_blank">验货与签收</a><br>
+                <a href="#" target="_blank">购物保障</a><br>
+                <a href="#" target="_blank">退换货方式</a><br>
+                <a href="#" target="_blank">退换货流程</a></dd></dl>
+        <dl>
+            <dt>客服中心</dt><dd><a href="/userCenter/User_Order.aspx" target="_blank">订单查询</a><br>
+                <a href="#" target="_blank">投诉建议</a><br>
+                <a href="#" target="_blank">电话客服</a><br>
+                <a href="#" target="_blank">在线客服</a></dd></dl>
+        <dl>
+            <dt>关于我们</dt><dd><a href="#" target="_blank">公司概况</a><br>
+                <a href="#" target="_blank">联系我们</a></dd>
+            <dd>
+                <a href="#">网站地图</a></dd>
+        </dl>
+        <dl>
+            <dd>
+                <a href="#" target="_blank">
+                    <img src="css/img/in_wb.gif"></a></dd>
+            <dd>
+                <img src="css/img/in_dh.gif"></dd></dl>
+    </div>
+    <div id="kouhao">
+        <img src="img/in_kh.jpg" /></div>
+    <div id="footer">
+        
+        本站域名： <a href="http://www.yjgo.com.cn" target="_blank">www.yjgo.com.cn</a> | 地址：辽宁省沈阳市和平区文化路79号<br />
+        ©2005-2013 辽宁宜佳电视购物有限公司 版权所有，并保留所有权利。
+        <br />
+        辽ICP备12015716号-2 <br>
+        Tel:400-688-8499 | 招商热线：23186680 23186681 | 团购热线：23181390 | 售后热线：400-688-6611</div>
+</div>
+
+        </div>
+      
+        
+
+
+</div> 
+        <div class="nextpage">
+            <!--这是帮助页面
+            	<div class="poplayer_newstyle" style="display: none; right: 135px;" id="helpdiv">
+                <div class="a">
+                    <img src="http://www.yjgo.com.cn/images/helpicon_new_03.gif"
+                        alt="" /></div>
+                <div class="b" style="position: relative;">
+                    <a href="#" onclick="closediv('helpdiv'); return false;" style="position: absolute;
+                        top: 0px; right: 10px;">
+                        <img src="http://www.yjgo.com.cn/images/xclosebtn.gif"
+                            alt="" style="vertical-align: top" />
+                    </a>
+                    <h3>
+                        <img src="http://www.yjgo.com.cn/images/helpicon_new_07.gif"
+                            alt="需要帮助吗？" /></h3>
+                    <div class="questions_addstyle">
+                        <div>
+                            <strong>请点击查询常见问题解答：</strong></div>
+                        <ul>
+<li><a href="">1.送货问题</a></li><li><a href="">2.支付问题</a></li><li><a href="../FAQ/Faq_Helper.aspx?typeid=212&itemid=918">3.积分问题</a></li><li><a href="../FAQ/Faq_Helper.aspx?typeid=213&itemid=645">4.退换货问题</a></li>
+<li><a href="">5.网站订购指南</a></li></ul> 
+                        <div class="questions_add_searchstyle">
+                            <span>
+                                <input name="ctl00$inputFAQKey" type="text" id="ctl00_inputFAQKey" style="height: 18px;" onclick="this.value=&#39;&#39;" value="输入帮助关键词搜索" /></span><span><input type="image" name="ctl00$ibtnFAQSubmit" id="ctl00_ibtnFAQSubmit" src="/images/help_11.png" style="border-width:0px;border: none; margin: 0;" /></span></div>
+                    </div>
+                    <div>
+                        <strong>还是无法解决您的问题？</strong></div>
+                    <p>
+                        请提交您的问题，我们会及时给您解答。</p>
+                    <table>
+                        <tr>
+                            <td>
+                                <textarea name="ctl00$txtareaContent" rows="2" cols="20" id="ctl00_txtareaContent">
+</textarea>
+                                <span id="Contenterrorfoot" style="color: Red;"></span>
+                            </td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td valign="top">
+                                <span>电子邮箱</span>
+                            </td>
+                            <td>
+                                <input name="ctl00$txtEmail" type="text" id="ctl00_txtEmail" />
+                                <span id="emailerrorfoot" style="color: Red;"></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td valign="top">
+                                <span>手机号码</span>
+                            </td>
+                            <td>
+                                <input name="ctl00$txtMobile" type="text" id="ctl00_txtMobile" />
+                                <span id="mobileerrorfoot" style="color: Red;"></span>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="l_btngroupstyle">
+                        <input type="image" name="ctl00$ibtnHelpEnter" id="ctl00_ibtnHelpEnter" src="/images/helpicon_new_11.gif" onclick="return checkenter();" style="border-width:0px;" /><input type="image" name="ctl00$ibtnqx" id="ctl00_ibtnqx" src="/images/helpicon_new_13.gif" onclick="closediv(&#39;helpdiv&#39;); return false;" style="border-width:0px;" /></div>
+                </div>
+                <div align="c">
+                    <img src="http://www.yjgo.com.cn/images/helpicon_new_10.gif"
+                        alt="" /></div>
+            </div>-->
+            <div id="dbpf">
+                <div id="dbpf1">
+                    <ul>
+                        <li><a href="#">
+                            <img src="img/in_wdjf.gif"></a></li>
+                        <li><a href="#">
+                            <img src="img/in_wddd.gif"></a></li>
+                        <li><a href="#">
+                            <img src="img/in_wdgwd.gif"></a></li>
+                        <li>
+                            <img src="img/in_wyyw.gif" onclick="displaydiv('helpdiv'); return false;" style="cursor: pointer;"
+                                border="0" alt="我有疑问"></li>
+                        <li><a href="#" style="padding: 0; margin: 4px 0 4px 4px;">
+                            <img src="img/new_in_top.gif" alt="返回顶部"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
