@@ -248,21 +248,26 @@ _margin-left:6px; display:inline; margin-top:10px;text-align: center;}
 
 .pl span{display:inline-block;width:248px;text-align: center;}
 .pl span a img{width:135px;height:135px;}
+#tsly dl p, #pageh dl p, #pageh dl p {
+    height: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 
-#xsms{ float:left; width:940px; margin-top:10px;}
-#xsmst{ float:left; width:940px; height:32px; display:inline; background:url(../images/in_mst.gif) repeat-x;}
-#xsmst dl{ float:left; width:869px; margin-left:20px; display:inline; line-height:32px;}
+#xsms{ float:left; width:927px; margin-top:10px;height:309px;}
+#xsmst{ float:left; width:927px; height:32px; display:inline; background:url(img/in_mst.gif) repeat-x;}
+#xsmst dl{ float:left; width:856px; margin-left:20px; display:inline; line-height:32px;}
 #xsmst dl dt{ float:left; color:#c82324; font-size:14px; font-weight:bold;}
 #xsmst dl dd{ float:right; color:#323232}
 #xsmst dl span{ color:#c82324; text-align: center;}
-#xsmsc{ float:left; width:938px; height:276px; border-left:#dfdfdf 1px solid; border-right:#dfdfdf 1px solid; border-bottom:#dfdfdf 1px solid;}
-#xsmsc dl{ float:left; width:187px; height:274px; background:url(../images/xx.gif) repeat-y right;border-bottom:#fff 2px solid; position: relative; }
+#xsmsc{ float:left; width:925px; height:276px; border-left:#dfdfdf 1px solid; border-right:#dfdfdf 1px solid; border-bottom:#dfdfdf 1px solid;}
+#xsmsc dl{ float:left; width:174px; height:274px; background:url(img/xx.gif) repeat-y right;border-bottom:#fff 2px solid; position: relative; }
 #xsmsc dl:hover { border-bottom:#ccc 2px solid; }
-#xsmsc dl a.zjicon{/*width:187px; height:276px;*/position: absolute;width: 50px;display: block;background: url(/images/zjicon_03.png) no-repeat;height: 50px;top:0px;right:0px;text-decoration: none;}
+#xsmsc dl a.zjicon{/*width:187px; height:276px;*/position: absolute;width: 50px;display: block;height: 50px;top:0px;right:0px;text-decoration: none;}
 #xsmsc dl a:hover{float:left; /*width:187px; height:275px; _height:272px;border-bottom:#ccc 2px solid;*/}
-#xsmsc dl p{ float:left; width:187px; /*height:163px;*/ text-align:left; margin-top: 20px; }
-#xsmsc dl dt{ float:left; width:166px; height:32px; line-height:16px; margin-top:15px; margin-left:12px; display:inline; color:#656565;}
-#xsmsc dl dd{ float:left; width:166px; color:#989898; margin-left:12px; display:inline;}
+#xsmsc dl p{ float:left; width:174px; /*height:163px;*/ text-align:left; margin-top: 20px; }
+#xsmsc dl dt{ float:left; width:153px; height:32px; line-height:16px; margin-top:15px; margin-left:12px; display:inline; color:#656565;}
+#xsmsc dl dd{ float:left; width:153px; color:#989898; margin-left:12px; display:inline;}
 #xsmsc dl dd b{ color:#e3383b; font-size:14px;}
 /*#xsmsc dl span{ float:left; width:187px; text-align:center; margin-top:12px; color:#989898;}*/
 #xsmsc dl a.zjicon span{text-align:center;PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: block; COLOR: #fff; FONT-SIZE: 15px; FONT-WEIGHT: bold; TEXT-DECORATION: none; PADDING-TOP: 22px}
@@ -344,12 +349,13 @@ _margin-left:6px; display:inline; margin-top:10px;text-align: center;}
 .subContent4{clear:both;border:1px solid #dfdfdf;border-top:none;border-left:none;background:#fff; padding-left:35px;}
 .subContent4 ul{display:none;height:517px; _height:517px;}
 
-#pageh{ float:left; width:932px;}
-#pageh dl{ float:left; width:186px; height:230px; background:url(img/xx.gif) repeat-y right; padding-right:1px; position: relative; border-bottom:#fff 2px solid}
+#pageh{ float:left; width:930px;}
+#pageh img{width:175px;height: 160px;}
+#pageh dl{ float:left; width:183px; height:230px; background:url(img/xx.gif) repeat-y right; position: relative; border-bottom:#fff 2px solid}
 #pageh dl:hover{ border-bottom:#ccc 2px solid }
-#pageh dl a{float:left; /*width:186px; height:230px;*/ cursor:pointer;}
+#pageh dl a{float:left; /*width:186px; height:230px;*/ cursor:pointer;font-size:8px;}
 #pageh dl a:hover{float:left; text-decoration: none; /*width:186px; height:229px; _height:228px; border-bottom:#ccc 2px solid;*/}
-#pageh dl p{ float:left; width:186px; height:163px; text-align:center;}
-#pageh dl dt{ float:left; width:166px; height:32px; line-height:16px; margin-left:12px; display:inline; color:#656565;}
-#pageh dl dd{ float:left; width:166px; color:#989898; margin-left:12px; display:inline;}
+#pageh dl p{ float:left; width:186px; height:160px; text-align:left;}
+#pageh dl dt{ float:left; width:186px; height:32px; line-height:16px; margin-left:12px; display:inline; color:#656565;}
+#pageh dl dd{ float:left; width:186px; color:#989898; margin-left:12px; display:inline;}
 #pageh dl dd b{ color:#e3383b; font-size:14px;}
