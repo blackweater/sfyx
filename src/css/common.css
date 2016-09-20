@@ -36,6 +36,8 @@ a{color:#333;cursor: pointer;}
     background-color: #fff;
     background-image:url(../img/bg.gif);
 }
+
+
 #indl{ float:left; width:1210px; height:31px;}
 #indll{ float:left; width:598px;}
 #indll ul{ float:left; width:598px;}
@@ -68,7 +70,20 @@ a{color:#333;cursor: pointer;}
 #gwc dl dd{ float:left; margin-top:2px; margin-left:32px; display:inline; line-height:10px;}
 #gwc dl dd a{ color:#656565;}
 #gwc dl dd a:hover{ color:#c82324;}
-
+/*导航栏*/
+#menu #faq, #faq { float:left;width: 197px; margin-top:-2px;}
+#menu #faq li, #faq li { float:left;}
+#menu #faq dl, #faq dl {float:left;display:inline; width:202px;}
+#menu #faq dt, #faq dt {width: 191px; height:33px; line-height:33px; font-size:14px; border-bottom:#fefefe 1px solid;font-weight:bold;cursor:pointer;  background:url(img/jt.gif) no-repeat right center; background-color:#f9f9f9;color:#c82324;padding-left:9px;margin-left:2px; display:block; }
+#menu #faq dd, #faq dd {display:none;margin:0; padding-right: 0px;}
+#menu{ float:left; width:1210px; height:40px;}
+#menu dl{ float:left;width:1210px; line-height:40px;height:40px; }
+#menu dl dt{ float:left;font-size:14px; font-weight:bold; margin-left:18px; margin-right:18px; display:inline;}
+#menu dl dt a{ color:#323232;}
+#menu dl dt a:hover{ color:#c82324;}
+#menu dl dd{ float:right; font-size:14px; font-weight:bold; background:url(../img/li1.gif) no-repeat right top; padding-right:15px;}
+#menu dl dd a{ color:#c82324;}
+#menu dl p{float:left;width:193px; height:40px; line-height:40px; color:#FFF; font-size:14px; font-weight:bold; padding-left:17px; background:#c82324; margin-right:15px;}
 
 
 

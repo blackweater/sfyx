@@ -11,8 +11,19 @@
 <script src="assets/jquery-1.12.0.js"></script>	
 <script src="assets/bootstrap.js"></script>
 <script src="assets/day19-move.js" ></script>
-<script src="js/index.js" ></script>
-<script src="js/my.js"></script>
+<script src="js/index.js"></script>
+<script>
+	$(function(){
+//插入HTML	
+	$("<div/>").load("header.html",function(){
+		$(this).insertBefore(".row-fluid");
+	});
+	$("<div/>").load("footer.html",function(){
+		$(this).insertAfter(".row-fluid");
+	});
+})	
+</script>
+
 </head>
 <body>	
 <div class="container-fluid">
@@ -1716,97 +1727,8 @@ class="">
     </div>   
   	</div>
   </div>
-  
-
-        </div>
-      
-        
-
-
-</div> 
-        <div class="nextpage">
-            <!--这是帮助页面
-            	<div class="poplayer_newstyle" style="display: none; right: 135px;" id="helpdiv">
-                <div class="a">
-                    <img src="http://www.yjgo.com.cn/images/helpicon_new_03.gif"
-                        alt="" /></div>
-                <div class="b" style="position: relative;">
-                    <a href="#" onclick="closediv('helpdiv'); return false;" style="position: absolute;
-                        top: 0px; right: 10px;">
-                        <img src="http://www.yjgo.com.cn/images/xclosebtn.gif"
-                            alt="" style="vertical-align: top" />
-                    </a>
-                    <h3>
-                        <img src="http://www.yjgo.com.cn/images/helpicon_new_07.gif"
-                            alt="需要帮助吗？" /></h3>
-                    <div class="questions_addstyle">
-                        <div>
-                            <strong>请点击查询常见问题解答：</strong></div>
-                        <ul>
-<li><a href="">1.送货问题</a></li><li><a href="">2.支付问题</a></li><li><a href="../FAQ/Faq_Helper.aspx?typeid=212&itemid=918">3.积分问题</a></li><li><a href="../FAQ/Faq_Helper.aspx?typeid=213&itemid=645">4.退换货问题</a></li>
-<li><a href="">5.网站订购指南</a></li></ul> 
-                        <div class="questions_add_searchstyle">
-                            <span>
-                                <input name="ctl00$inputFAQKey" type="text" id="ctl00_inputFAQKey" style="height: 18px;" onclick="this.value=&#39;&#39;" value="输入帮助关键词搜索" /></span><span><input type="image" name="ctl00$ibtnFAQSubmit" id="ctl00_ibtnFAQSubmit" src="/images/help_11.png" style="border-width:0px;border: none; margin: 0;" /></span></div>
-                    </div>
-                    <div>
-                        <strong>还是无法解决您的问题？</strong></div>
-                    <p>
-                        请提交您的问题，我们会及时给您解答。</p>
-                    <table>
-                        <tr>
-                            <td>
-                                <textarea name="ctl00$txtareaContent" rows="2" cols="20" id="ctl00_txtareaContent">
-</textarea>
-                                <span id="Contenterrorfoot" style="color: Red;"></span>
-                            </td>
-                        </tr>
-                    </table>
-                    <table>
-                        <tr>
-                            <td valign="top">
-                                <span>电子邮箱</span>
-                            </td>
-                            <td>
-                                <input name="ctl00$txtEmail" type="text" id="ctl00_txtEmail" />
-                                <span id="emailerrorfoot" style="color: Red;"></span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td valign="top">
-                                <span>手机号码</span>
-                            </td>
-                            <td>
-                                <input name="ctl00$txtMobile" type="text" id="ctl00_txtMobile" />
-                                <span id="mobileerrorfoot" style="color: Red;"></span>
-                            </td>
-                        </tr>
-                    </table>
-                    <div class="l_btngroupstyle">
-                        <input type="image" name="ctl00$ibtnHelpEnter" id="ctl00_ibtnHelpEnter" src="/images/helpicon_new_11.gif" onclick="return checkenter();" style="border-width:0px;" /><input type="image" name="ctl00$ibtnqx" id="ctl00_ibtnqx" src="/images/helpicon_new_13.gif" onclick="closediv(&#39;helpdiv&#39;); return false;" style="border-width:0px;" /></div>
-                </div>
-                <div align="c">
-                    <img src="http://www.yjgo.com.cn/images/helpicon_new_10.gif"
-                        alt="" /></div>
-            </div>-->
-            <div id="dbpf">
-                <div id="dbpf1">
-                    <ul>
-                        <li><a href="#">
-                            <img src="img/in_wdjf.gif"></a></li>
-                        <li><a href="#">
-                            <img src="img/in_wddd.gif"></a></li>
-                        <li><a href="#">
-                            <img src="img/in_wdgwd.gif"></a></li>
-                        <li>
-                            <img src="img/in_wyyw.gif" onclick="displaydiv('helpdiv'); return false;" style="cursor: pointer;"
-                                border="0" alt="我有疑问"></li>
-                        <li><a href="#" style="padding: 0; margin: 4px 0 4px 4px;">
-                            <img src="img/new_in_top.gif" alt="返回顶部"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+       </div>
+</div>        
     </div>
 </body>
 </html>
