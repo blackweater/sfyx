@@ -1,4 +1,4 @@
-$(function(){
+$(function(){	
 var arr=['首页','家居百货','3C数码','精品家电','时尚生活','宜佳旅游','限时秒杀']
 var $md=$('#menu  dl');
 //console.log($md);
@@ -109,5 +109,6 @@ function showBtn(allBtn, index) {
 			move();
 		}
 	}
+	 
 })
 
