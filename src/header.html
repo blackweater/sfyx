@@ -7,14 +7,17 @@
 		<script>
 var arr=['首页','家居百货','3C数码','精品家电','时尚生活','宜佳旅游','限时秒杀']
 var $md=$('#menu  dl');
-console.log($md);
+//console.log($md);
 $.each(arr,function(idx){
-	var $oa=$('<a/>');	
+	var $oa=$('<a href="#" />');	
 	var $dt=$('<dt/>');	
 	//console.log($oa,$dt);
 	$oa.html(arr[idx]).appendTo($dt);
 	$dt.css({'lineHeight':'40px','fontSize':'14px'}).appendTo($md);
 });
+$md.find("dt").eq(0).children("a").attr("href","index.html");
+
+$md.find("dt").eq(2).children("a").attr("href","index1.html");
 $('<dd/>').css({
 	float: 'right',
     fontSize: '14px',
@@ -40,7 +43,7 @@ $('<dd/>').css({
 您好，欢迎来到宜佳商城！</dt>
 <dd>
 <a href="#">[注册]</a>
-<a href="#"">[登录]</a>
+<a href="#">[登录]</a>
 </dd>
 </dl>
 <ul>
@@ -88,7 +91,7 @@ style="">腕表</a> </span><a href="#" target="_blank">
 <dt id="headercartproductcount">
 0</dt>
 <dd>
-<a href="">去购物车结算</a></dd>
+<a href="shopping.html">去购物车结算</a></dd>
 </dl>
 </div>
 </div>

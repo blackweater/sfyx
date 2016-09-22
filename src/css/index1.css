@@ -154,7 +154,7 @@ margin: 4px;}
 }
 /*产品列表*/
 .productlist UL {padding-left:30px;
-	WIDTH: 770px; OVERFLOW: hidden;
+	OVERFLOW: hidden;
 }
 .productlist UL LI {
 	BORDER-BOTTOM: #f2f2f2 1px solid; PADDING-BOTTOM: 16px; LIST-STYLE-TYPE: none; PADDING-LEFT: 0px; WIDTH: 180px; PADDING-RIGHT: 16px; MARGIN-BOTTOM: 8px; FLOAT: left; HEIGHT: 320px;

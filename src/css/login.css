@@ -30,6 +30,7 @@ box-shadow: inset #eee 3px 3px 3px;}
 .yzm{display: none;}
 .btn{background: orangered;color:white;margin:6px 8px;}
 
+
 .logreg textarea {
     border: solid 1px #e4e4e4;
     margin: 12px 0;
@@ -48,3 +49,4 @@ box-shadow: inset #eee 3px 3px 3px;}
 .logreg p .lgrg_info {
     color: #999;
 }
+.red{color: red!important;}

@@ -9,7 +9,8 @@
 <link rel="stylesheet" type="text/css" href="css/login.css" />
 <script src="assets/jquery-1.12.0.js"></script>	
 <script src="assets/bootstrap.js"></script>
-<script type="text/javascript" src="js/login.js" ></script>
+
+<script  src="js/login.js" ></script>
 <script>
 $(function(){
 //插入HTML	
@@ -30,17 +31,17 @@ $(function(){
 	<h2><strong>网站会员登录</strong><em>已注册用户请在此登陆</em></h2>
 	
 	<p><span class="tit">账户</span>
-		<span class="inpit"><input name="username" type="text"  maxlength="20" class="bank"/></span>
+		<span class="inpit"><input name="user" type="text"  maxlength="20" class="bank"/></span>
 		<span class="tab">输入手机号、邮箱或会员号</span>
 	</p>
 	
 	<p><span class="tit">密码</span>
-		<span class="inpit"><input name="username" type="password"  maxlength="20" class="bank"/></span>
+		<span class="inpit"><input name="password" type="password"  maxlength="20" class="bank"/></span>
 		<span class="tab">输入密码</span>
 	</p>
 	
 	<p><span class="tit">验证码</span>
-		<span class="inpit"><input name="username" type="text"  length="4" class="bank"/></span>
+		<span class="inpit"><input name="number" type="text"  length="4" class="bank"/></span>
 		<span><span class="yzm">输入错误</span> <span class="addnumber">1234</span>
 				<a href="#">更换</a>		</span>
 	</p>
@@ -60,7 +61,7 @@ $(function(){
 	
         <p>
             <span class="lgrg_tit"><em>*</em>手机</span> <span class="lgrg_cont">
-                <input name="username" type="text"  maxlength="11" id="register1_txtMobile1" class="bank" onblur="checkMobile();" onkeypress="event.returnValue=isDigit();" onchange="checkDigit(this);" />
+                <input name="username" type="text"  maxlength="11" id="register1_txtMobile1" class="bank"   />
                 <input type="submit" name="register1$btnMobileCheck" value="" id="register1_btnMobileCheck" style="display: none;" />
             </span>
             <span class=lgrg_info id=lblPhoneError >请填写您的手机号码吧</span>
@@ -71,9 +72,8 @@ $(function(){
 	
             <p>
 <span class="fixVerticalCenterAdd" >
-                        <img src="../include/ValidCode.aspx?type=reg" onclick="this.src='../include/ValidCode.aspx?type=reg&date=' + new Date();"
-                            alt="验证码" id="img1" name="imgValidCode" style="display: none;"></span> <span class="fixVerticalCenterInner"
-                                style="display: none;"><a href="javascript:ChangeValidateImage('img1');" title="如果看不清，请点击换一张">
+                       
+                           
                                     更换</a></span> </span>
             </p>
             <p>
@@ -85,7 +85,7 @@ $(function(){
     <p>
         <span class="lgrg_tit">
            &nbsp;&nbsp;&nbsp; 邮箱</span> <span class="lgrg_cont">
-                <input name="register1$txtEmail1" type="text" maxlength="50" id="register1_txtEmail1" class="bank" /></span>
+                <input name="num" type="text" maxlength="50" id="register1_txtEmail1" class="bank" /></span>
         <span class="lgrg_info" id=lblEmailerror >订单信息和优惠券等信息会通过邮件发给您</span>
     </p>
     

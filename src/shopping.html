@@ -1,9 +1,36 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="UTF-8">
-		<title></title>
+		<meta charset="UTF-8">	
+		<title>详情页面</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/shopping.css" />
+<script src="assets/jquery-1.12.0.js"></script>	
+<script src="assets/bootstrap.js"></script>
+<script type="text/javascript" src="js/mycookie.js" ></script>
+<script type="text/javascript" src="js/shopping.js" ></script>
+<script>
+$(function(){
+//插入HTML	
+	$("<div/>").load("header.html",function(){
+		$(this).insertBefore(".row-fluid");
+	});
+	$("<div/>").load("footer.html",function(){
+		$(this).insertAfter(".row-fluid");
+	});
+});	
+</script>
 	</head>
 	<body>
+<div class="container-fluid">
+<div class="row-fluid" style="clear: both;">
+	<h1>我的购物车</h1>
+	<ul id="plist">
+		  
+	</ul>
+</div>
+</div>
 	</body>
 </html>
