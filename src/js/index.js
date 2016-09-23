@@ -92,5 +92,29 @@ function showBtn(allBtn, index) {
 		}
 	}
 	 
+//	 
+//	 menu #faq dd, #faq dd 
+//  display: none;
+//
+
+//2级菜单
+var $faq=$("#faq");
+//var nub=0;
+$faq.on("click","li",function(){
+	$faq.children("li").find("dd").hide();
+	var index=$(this).index();
+	console.log(index);
+	$faq.children("li").eq(index).find("dd").show();
+	//nub=index;
+});
+//.allsort .item span h3 a show()   .allsort .item mosuenter
+var $item=$(".allsort .item");
+$item.on("mouseenter",function(){
+	var index=$(this).index();
+	$(this).closest("li").find(".i-mc").eq(index).show();
+	$item.on("mouseleave",function(){
+	$(this).closest("li").find(".i-mc").eq(index).hide();	
+	});
+});
 })
 

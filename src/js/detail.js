@@ -1,8 +1,8 @@
 $(function(){
 	// 实现放大镜效果
 	$('.lxzoom').lxzoom({
-		width:300,
-		height:300
+		width:250,
+		height:250
 	});
 	var $ulpic=$("#ulSmallPic");
 	var $oa=$("<a href='#' />");
@@ -43,18 +43,20 @@ $(function(){
 	// 例如：
 	// {product: XXX, price: 180}
 
-	
+	var count=0;
 
-		$(".buy02 a").on('click',function() {
+		$(".buy02").on('click','a',function() {
 			// 这个是价格
+			
 			var oPrice = $("#p_WebPrice");
 //<span id="p_WebPrice">¥358</span>
 // 这个商品的信息<div class="pname" style="padding:8px 0 0 0"><h1>
          
 			var oProduct = $(".pname h1");
-			console.log(oProduct);
+			//console.log(oProduct);
 			var oSrc=$("#box").find("img").attr("src");
 			
+			//console.log(oSrc);
 			// 取出商品名字的标签对象
 			//火狐支持contains var oSpan = $("span:contains('品号')");
 			var oSpan = $(".pname span").eq(0);
@@ -69,27 +71,32 @@ $(function(){
 			// var str = encodeURI(oSpan.innerHTML);
 
 			var obj={} ;
-
+			count++;
+			$("#headercartproductcount").html(count);
+			
 			obj.product = oProduct.html();
 			obj.price = oPrice.html();
 			obj.num=oSpan.html();
 			obj.src=oSrc;
 			// 将创建好的商品添加到数组中
+			
 			arr.push(obj);
 
 			// 将数组的内容设置到 cookie 中呢？
 			// cookie 的名字是 arr, 内容是数组中的商品，过期时间是7天以后
+			
+
 			addCookie("arr", JSON.stringify(arr), 7);
+			
+			//加入cookie
+			//console.log("加入cookie");
 
-
-
-			/*
-			addCookie("product", oSpan.innerHTML, 7);
+			/*		//addCookie("product", oSpan.innerHTML, 7);
 			
 			// 函数库中自定义的函数
 			// 添加了一个 cookie,名字是 price, 内容是 商品的价格, 过期时间是 7天后 
-			addCookie("price", oPrice.innerHTML, 7);
-			//*/
+			//addCookie("price", oPrice.innerHTML, 7);
+			*/
 			
 
 			alert("添加成功");

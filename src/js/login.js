@@ -6,14 +6,25 @@ $(function(){
 		//console.log($user.parent().next().text());		
 //		var reg=/^[\w]{6,20}$/gi;
 		if(!reg.test(str))
-	{$name.parent().next().text(text).addClass("red");}
-		
+	{$name.parent().next().text(text).addClass("red");}		
 	}
 	
 	$('input[name="user"]').on("onmouseleave",function(){
 		triger('user',/^[\w]{6,20}$/gi,'用户名长度要在6-20之间');
 	});
-	
+	function getNum(){
+	var num=parseInt(Math.random()*10000);
+		if (num<1000)
+		{
+			num=parseInt(Math.random()*10000);
+		};return num;
+	}
+		
+		$(".addnumber").html(getNum());
+$(".addnumber").on("click",function(){$(".addnumber").html(getNum());
+} );
+$(".addnumber").next().on("click",function(){$(".addnumber").html(getNum());
+} );
 	var $btn1=$(".log-bt .btn");
 	
 	$btn1.on("click",function(){		

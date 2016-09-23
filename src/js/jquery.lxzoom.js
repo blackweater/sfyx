@@ -4,7 +4,7 @@
 		// 这里的this指向jquery实例（选择器得到的对象）
 		var defaults = {
 			position:'right',//大图显示的位置
-			gap:20,//小图与大图的距离
+			gap:50,//小图与大图的距离
 			width:300,
 			height:200,
 		}
@@ -107,7 +107,7 @@
 				}
 				$bigWrap.css({
 					left:left,
-					top:top/3,
+					top:top/2,
 					width:opt.width,
 					height:opt.height
 				})

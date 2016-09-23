@@ -4,7 +4,7 @@
 //    name:  cookie 的名字
 //    val: cookie 的值
 //    day: 多少天以后过期
-// 返回值为空
+// 返回值为空addCookie("arr", JSON.stringify(arr), 7);
 function addCookie(name, val, day)
 {
 	var oDate = new Date();
